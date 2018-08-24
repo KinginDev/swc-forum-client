@@ -1,0 +1,69 @@
+<template>
+    <div>
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <nuxt-link to="/" tag="li" class="nav-item active">
+                <a class="nav-link"
+                  >Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </nuxt-link>
+             <nuxt-link to="/user" tag="li" class="nav-item active">
+                <a class="nav-link"
+                 >Profile</a>
+             </nuxt-link>
+              <nuxt-link to="/thread" tag="li" class="nav-item active">
+                <a class="nav-link"
+                   >Threads</a>
+              </nuxt-link>
+            
+              <nuxt-link to="/thread/new" tag="li" class="nav-item active">
+                <a class="nav-link"
+                   >Create Thread</a>
+              </nuxt-link>
+            <li class="nav-item dropdown">
+                <a class="nav-link"
+                   href="www.apex-triangle.com">Learn More About Us</a>
+            </li>
+        </ul>
+           
+            <span class="navbar-text">
+
+                    <span v-if="loggedIn"><i class="fas fa-user" style="margin: 0px 10px;"></i><a href="#">Sign In</a></span>
+                    
+                      <span v-else>
+                        <img src="/images/avatar_male.jpg" style="min-height: 30px; width: 30px ;margin: 0px 10px; border-radius: 50%;"  class="img-responsive" alt=""><nuxt-link to="/user">View Profile </nuxt-link>
+                      </span>
+                </span>
+        </div>
+    </nav>
+    </div>
+</template>
+
+<script>
+
+export default {
+
+    
+    data(){
+        return {
+          loggedIn: false, 
+          User: {} 
+        }
+    },
+
+ 
+
+}
+</script>
+
+<style>
+
+</style>
