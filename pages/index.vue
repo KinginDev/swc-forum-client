@@ -45,9 +45,7 @@
 				</div>
 			</div>
 		</div>
-		<footer class="text-center">
-			@2018. Made With <i class="fa fa-heart" style="color: red;"></i> By <a href="http://www.apex-triangle.com" target="_blank"> Apex Triangle. </a>&copy;<a href="https://www.twitter.com/atobajaiyemax" target="_blank">Kingi_n</a>
-		</footer>
+		
 	</div>
 </template>
 <script>
