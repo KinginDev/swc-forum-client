@@ -34,7 +34,7 @@
                                     <div class="form-group">
                                         <div class="card-body">
                                                 <center>
-                                                <button type="submit" class="btn btn-primary btn-block"  ref="Btn" @click.prevent="createThread()">
+                                                <button type="submit" class="btn btn-outline-danger btn-block"  ref="Btn" @click.prevent="createThread()">
                                                 <span v-if="!clickedBtn">Create Thread</span>
                                                 <span class="text-center" v-else><i class="fa fa-spinner text-center"></i></span>
                                                 </button>

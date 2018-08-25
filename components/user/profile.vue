@@ -22,7 +22,7 @@
                                                         <input type="text" readonly class="form-control" id="" placeholder="" v-model="User.phone">
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="submit" class="btn btn-outline-primary" value="Edit Profile">
+                                                        <input type="submit" class="btn btn-outline-danger" value="Edit Profile">
                                                     </div>
                                                     </form>
                                             </div>
@@ -34,7 +34,7 @@
                                                <center> <img src="/images/avatar_male.jpg" alt="" class="img-responsive max-image img-rounded" title="Profile Image"></center>
                                                <div class="max-thread-info">
                                                 <ul>
-                                                    <li><strong>No Of Threads:</strong><span class="pull-right">{{User.threads}}</span></li>
+                                                    <li v-if="this.$apollo.queries.User.loading == false"><strong>No Of Threads:</strong><span class="pull-right">{{User.threads | count}}</span></li>
                                                     <li><strong>No Of Comments:</strong><span class="pull-right">30</span></li>
                                                 </ul>
                                                </div>
@@ -47,6 +47,7 @@
 
 <script>
 import gql from 'graphql-tag';
+import _ from 'lodash'
 const queryQ = gql `query($id: ID){
     User(id : $id){
             id
@@ -85,6 +86,11 @@ export default {
                     id: this.id
                 }
             }
+        }
+    },
+    filters: {
+        count(arg){
+           return _.size(arg)
         }
     }
 

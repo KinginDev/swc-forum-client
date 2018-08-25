@@ -169,7 +169,20 @@ footer{
     margin: 20px;
     padding: 20px 0px;
     border: 1px solid #eee;
+    
 }
 .bgSlider{
     margin:10px 0px;
+}
+
+
+
+.nav-pills .nav-link.active{
+    background: #ff5252;
+}
+a{
+    color: #ff5252;
+}
+a:hover{
+    color: #757575;
 }

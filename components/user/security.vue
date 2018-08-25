@@ -18,7 +18,7 @@
                                             </div>
                                              <div class="form-group">
                                                 
-                                                <input type="submit" class="btn btn-outline-primary" value="Reset">
+                                                <input type="submit" class="btn btn-outline-danger" value="Reset">
                                             </div>
                                         </form>
                                     </div>

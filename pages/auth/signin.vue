@@ -32,7 +32,7 @@
                                 <div class="form-group">
                                     <div class="">
                                                 <center>
-                                                <button type="submit" class="btn btn-primary btn-block"  ref="loginBtn">
+                                                <button type="submit" class="btn btn-outline-danger btn-block"  ref="loginBtn">
                                                   <span v-if="!clickedLogin">Grant Me Access</span>
                                                   <span class="text-center" v-else><i class="fa fa-spinner text-center"></i></span>
                                                 </button>
@@ -74,7 +74,7 @@ export default {
             }
         }).then( (res) => {
             //set the token cookie
-            var inFifteenMinutes = new Date(new Date().getTime() + 15 * 60 * 1000);
+            var inFifteenMinutes = new Date(new Date().getTime() + 60 * 60 * 1000);
             
             Cookie.set('userToken', res.headers.authorization,{
                 expires: inFifteenMinutes

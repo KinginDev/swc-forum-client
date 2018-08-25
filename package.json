@@ -28,6 +28,7 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "cross-fetch": "^2.2.2",
+    "epic-spinners": "^1.0.3",
     "express": "^4.15.3",
     "graphql": "^0.13.2",
     "graphql-tag": "^2.9.2",

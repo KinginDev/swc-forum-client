@@ -25,7 +25,7 @@ export default function (context) {
         decoded = JWT.verify(token, 'Maxwell')
     } catch (e) {
         console.log(e)
-        context.redirect("/auth/signin/?redirect=" + context.route.fullPath )
+        return context.redirect("/auth/signin/?redirect=" + context.route.fullPath )
     }
 
     const GET_USER_QUERY = gql`query($id: ID){

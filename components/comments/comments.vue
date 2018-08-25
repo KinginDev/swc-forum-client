@@ -12,6 +12,7 @@
 </template>
 <script>
 	import gql from 'graphql-tag';
+	import {eventBus} from '@/plugins/eventBus.js';
 	const query = gql `query ($id: ID){
 		allComments(filter: {
 			thread: {
@@ -52,7 +53,11 @@
 			},
 		mounted(){
 			console.log(this.allComments)
-		}
+			eventBus.$on('newComment', () => {
+				this.$apollo.queries.allComments.refetch();
+			})
+		},
+
 
 	}
 </script>

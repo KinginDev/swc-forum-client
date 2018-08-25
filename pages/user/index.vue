@@ -21,7 +21,7 @@
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                               <threads />
+                               <threads :id="id" />
                             </div>
                             <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                                <security />
@@ -49,7 +49,7 @@ export default {
      middleware: 'user',
     data(){
         return{
-            id: getId()
+            id: ''
         }
     },
     components: {
@@ -58,6 +58,9 @@ export default {
         security,
         contact
     },
+    mounted(){
+        this.id = getId()
+    }
    
 }
 </script>

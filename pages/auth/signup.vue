@@ -79,7 +79,7 @@
                                 </div>
                                 <div class="form-group">
                                     <input type="submit"
-                                           class="btn btn-outline-primary btn-block"
+                                           class="btn btn-outline-danger btn-block"
                                            value="Grant Me Access" @click.prevent="signUp()">
                                 </div>
                             </form>

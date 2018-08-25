@@ -12,9 +12,9 @@ import { setContext, getLocation, getRouteData } from './utils'
 
 
 /* Plugins */
-import nuxt_plugin_veevalidate_b6ab3be6 from 'nuxt_plugin_veevalidate_b6ab3be6' // Source: ./vee-validate.js
-import nuxt_plugin_apollomodule_19bfaf6c from 'nuxt_plugin_apollomodule_19bfaf6c' // Source: ./apollo-module.js
-import nuxt_plugin_axios_2c88ba7e from 'nuxt_plugin_axios_2c88ba7e' // Source: ./axios.js
+import nuxt_plugin_veevalidate_a09a5062 from 'nuxt_plugin_veevalidate_a09a5062' // Source: ./vee-validate.js
+import nuxt_plugin_apollomodule_49266ac8 from 'nuxt_plugin_apollomodule_49266ac8' // Source: ./apollo-module.js
+import nuxt_plugin_axios_aaff4a08 from 'nuxt_plugin_axios_aaff4a08' // Source: ./axios.js
 import nuxt_plugin_vuealert_6d6910d9 from 'nuxt_plugin_vuealert_6d6910d9' // Source: ../plugins/vue-alert.js (ssr: false)
 import nuxt_plugin_editor_1810bf73 from 'nuxt_plugin_editor_1810bf73' // Source: ../plugins/editor.js
 import nuxt_plugin_eventBus_7e320a7a from 'nuxt_plugin_eventBus_7e320a7a' // Source: ../plugins/eventBus.js
@@ -139,9 +139,9 @@ async function createApp (ssrContext) {
 
   // Plugin execution
   
-  if (typeof nuxt_plugin_veevalidate_b6ab3be6 === 'function') await nuxt_plugin_veevalidate_b6ab3be6(app.context, inject)
-  if (typeof nuxt_plugin_apollomodule_19bfaf6c === 'function') await nuxt_plugin_apollomodule_19bfaf6c(app.context, inject)
-  if (typeof nuxt_plugin_axios_2c88ba7e === 'function') await nuxt_plugin_axios_2c88ba7e(app.context, inject)
+  if (typeof nuxt_plugin_veevalidate_a09a5062 === 'function') await nuxt_plugin_veevalidate_a09a5062(app.context, inject)
+  if (typeof nuxt_plugin_apollomodule_49266ac8 === 'function') await nuxt_plugin_apollomodule_49266ac8(app.context, inject)
+  if (typeof nuxt_plugin_axios_aaff4a08 === 'function') await nuxt_plugin_axios_aaff4a08(app.context, inject)
   if (typeof nuxt_plugin_editor_1810bf73 === 'function') await nuxt_plugin_editor_1810bf73(app.context, inject)
   if (typeof nuxt_plugin_eventBus_7e320a7a === 'function') await nuxt_plugin_eventBus_7e320a7a(app.context, inject)
   

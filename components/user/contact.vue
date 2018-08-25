@@ -18,7 +18,7 @@
                                             </div>
                                              <div class="form-group">
                                                 
-                                                <input type="submit" class="btn btn-outline-primary" value="Send Email">
+                                                <input type="submit" class="btn btn-outline-danger" value="Send Email">
                                             </div>
                                         </form>
                                         <p class="max-cta text-success" style="margin: 10px 0px;">You Can Also Visit Our Website <a href="http://apex-triangle.com" target="_blank" style="color: black;">Visit</a> </p>

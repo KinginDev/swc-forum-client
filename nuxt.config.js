@@ -14,7 +14,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'shortcut icon',  href: 'images/57x57.png' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'},
       { rel: 'stylesheet', type: 'text/css', href: '/css/styles.css' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Arimo' },
