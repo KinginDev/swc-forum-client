@@ -66,7 +66,7 @@ export default {
      
      this.clickedLogin = true;
      this.$refs.loginBtn.disabled = true;
-        this.$axios.post('http://localhost:7000/signin',this.$data, {
+        this.$axios.post('http://swc-forum-server.herokuapp.com/signin',this.$data, {
             headers: {
                 'Content-Type' : 'application/json',
                 'Access-Control-Expose-Headers' : 'x-auth, Authorization',

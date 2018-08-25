@@ -112,7 +112,7 @@ export default {
             this.$validator.validateAll().then(res => {
                 if(res){
                      if(this.password === this.confirm_pass){
-                        this.$axios.post('http://localhost:7000/signup',data, {
+                        this.$axios.post('http://swc-forum-server.herokuapp.com/signup',data, {
                             headers: {
                                 'Content-Type' : 'application/json',
                                 'Access-Control-Expose-Headers' : 'x-auth, Authorization',
