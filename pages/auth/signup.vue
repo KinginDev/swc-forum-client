@@ -78,6 +78,7 @@
                                            </span>
                                 </div>
                                 <div class="form-group">
+                                  <p class="text-danger">By Clicking this button you have agreed to our terms and conditions</p>
                                     <input type="submit"
                                            class="btn btn-outline-danger btn-block"
                                            value="Grant Me Access" @click.prevent="signUp()">
