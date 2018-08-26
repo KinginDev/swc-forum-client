@@ -35,13 +35,13 @@
         </ul>
            
             <span class="navbar-text">
-
-                    <span v-if="loggedIn"><i class="fas fa-user" style="margin: 0px 10px;"></i><a href="#">Sign In</a></span>
                     
-                      <span v-else>
+                        <span ><i class="fa fa-sign-in" style="margin: 0px 10px;"></i><nuxt-link to="/auth/signin">Sign In</nuxt-link></span>
+                          <span ><i class="fa fa-sign-in-alt" style="margin: 0px 10px;"></i><nuxt-link to="/auth/signup">Sign Up</nuxt-link></span>
+                   
                         <img src="/images/avatar_male.jpg" style="min-height: 30px; width: 30px ;margin: 0px 10px; border-radius: 50%;"  class="img-responsive" alt=""><nuxt-link to="/user">View Profile </nuxt-link>
                       </span>
-                </span>
+                
         </div>
     </nav>
     </div>
@@ -58,6 +58,7 @@ export default {
           User: {} 
         }
     },
+
 
  
 
