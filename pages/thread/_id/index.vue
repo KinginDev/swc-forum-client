@@ -28,7 +28,7 @@
                              </div>
                             <div class="card-footer text-muted">
                                 <span class="max-author">
-                                    <i class="fas fa-user"></i> {{showUserNames}}</span>
+                                    <i class="fas fa-user"></i> {{this.Thread.user.firstname +' '+ this.Thread.user.lastname}}</span>
                                 <span class="max-date-posted">
                                     <i class="far fa-calendar"></i> {{toDateFormat}}</span>
                             </div>
