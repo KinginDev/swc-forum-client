@@ -1,6 +1,8 @@
-# froum
+# Saylet Web Design Class Forum
 
-> My super Nuxt.js project
+
+
+> This is project was built for members of SWC to ask questions and get answers
 
 ## Build Setup
 
@@ -19,4 +21,3 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
