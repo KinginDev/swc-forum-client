@@ -13,7 +13,7 @@
                                     </div>
                                 </center>
                             </div>
-                         <div class="card max-single-card">
+                         <div class="card max-single-card" v-else>
                              <div class="card-header max-card-header">
                                  <div class="single-title">{{Thread.title}}</div>
                              </div>
