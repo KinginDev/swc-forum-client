@@ -44,8 +44,8 @@ module.exports = {
       {
         src :"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"},
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/simplemde/1.11.2/simplemde.min.js', type: 'text/javascript'},
-      { src : '/js/main.js', type: 'text/javascript'}
-        { src : '/js/prisim.js', type: 'text/javascript'}
+      { src : '/js/main.js', type: 'text/javascript'},
+      { src : '/js/prisim.js', type: 'text/javascript'}
     ]
   },
 
@@ -121,3 +121,4 @@ module.exports = {
     ]
   }
 }
+
