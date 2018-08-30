@@ -1,16 +1,16 @@
 import Vue from 'vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
-import '../node_modules/vue-wysiwyg/dist/vueWysiwyg.css'
+import '..\\node_modules\\vue-wysiwyg\\dist\\vueWysiwyg.css'
 
-import '../node_modules/froala-editor/css/froala_editor.pkgd.min.css'
+import '..\\node_modules\\froala-editor\\css\\froala_editor.pkgd.min.css'
 
-import '../node_modules/froala-editor/css/froala_style.min.css'
+import '..\\node_modules\\froala-editor\\css\\froala_style.min.css'
 
 
 let layouts = {
 
-  "_default": () => import('../layouts/default.vue'  /* webpackChunkName: "layouts/default" */).then(m => m.default || m)
+  "_default": () => import('..\\layouts\\default.vue'  /* webpackChunkName: "layouts_default" */).then(m => m.default || m)
 
 }
 

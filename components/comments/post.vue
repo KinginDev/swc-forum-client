@@ -73,9 +73,15 @@
 					}).then( resp => {
 						console.log( resp)
 						this.$swal('success', 'You Comment has been successfully uploaded');
+                        this.clickedBtn = false;
+					    this.$refs.Btn.disabled = false;
+                        this.content = ''
 						 eventBus.$emit('newComment', true);
 					}).catch(e => {
 						this.$swal('Error', "Error tyring to create your comments, Please try agin Later", 'error')
+                        this.clickedBtn = false;
+					    this.$refs.Btn.disabled = false;
+                        this.content = ''
 					})
 				
 			}

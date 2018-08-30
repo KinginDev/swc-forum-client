@@ -12,12 +12,12 @@ import { setContext, getLocation, getRouteData } from './utils'
 
 
 /* Plugins */
-import nuxt_plugin_veevalidate_a09a5062 from 'nuxt_plugin_veevalidate_a09a5062' // Source: ./vee-validate.js
-import nuxt_plugin_apollomodule_49266ac8 from 'nuxt_plugin_apollomodule_49266ac8' // Source: ./apollo-module.js
-import nuxt_plugin_axios_aaff4a08 from 'nuxt_plugin_axios_aaff4a08' // Source: ./axios.js
-import nuxt_plugin_vuealert_6d6910d9 from 'nuxt_plugin_vuealert_6d6910d9' // Source: ../plugins/vue-alert.js (ssr: false)
-import nuxt_plugin_editor_1810bf73 from 'nuxt_plugin_editor_1810bf73' // Source: ../plugins/editor.js
-import nuxt_plugin_eventBus_7e320a7a from 'nuxt_plugin_eventBus_7e320a7a' // Source: ../plugins/eventBus.js
+import nuxt_plugin_veevalidate_b9c5ac46 from 'nuxt_plugin_veevalidate_b9c5ac46' // Source: ./vee-validate.js
+import nuxt_plugin_apollomodule_79f34b0c from 'nuxt_plugin_apollomodule_79f34b0c' // Source: ./apollo-module.js
+import nuxt_plugin_axios_401c1cae from 'nuxt_plugin_axios_401c1cae' // Source: ./axios.js
+import nuxt_plugin_vuealert_6d6910d9 from 'nuxt_plugin_vuealert_6d6910d9' // Source: ..\\plugins\\vue-alert.js (ssr: false)
+import nuxt_plugin_editor_1810bf73 from 'nuxt_plugin_editor_1810bf73' // Source: ..\\plugins\\editor.js
+import nuxt_plugin_eventBus_7e320a7a from 'nuxt_plugin_eventBus_7e320a7a' // Source: ..\\plugins\\eventBus.js
 
 
 // Component: <no-ssr>
@@ -139,9 +139,9 @@ async function createApp (ssrContext) {
 
   // Plugin execution
   
-  if (typeof nuxt_plugin_veevalidate_a09a5062 === 'function') await nuxt_plugin_veevalidate_a09a5062(app.context, inject)
-  if (typeof nuxt_plugin_apollomodule_49266ac8 === 'function') await nuxt_plugin_apollomodule_49266ac8(app.context, inject)
-  if (typeof nuxt_plugin_axios_aaff4a08 === 'function') await nuxt_plugin_axios_aaff4a08(app.context, inject)
+  if (typeof nuxt_plugin_veevalidate_b9c5ac46 === 'function') await nuxt_plugin_veevalidate_b9c5ac46(app.context, inject)
+  if (typeof nuxt_plugin_apollomodule_79f34b0c === 'function') await nuxt_plugin_apollomodule_79f34b0c(app.context, inject)
+  if (typeof nuxt_plugin_axios_401c1cae === 'function') await nuxt_plugin_axios_401c1cae(app.context, inject)
   if (typeof nuxt_plugin_editor_1810bf73 === 'function') await nuxt_plugin_editor_1810bf73(app.context, inject)
   if (typeof nuxt_plugin_eventBus_7e320a7a === 'function') await nuxt_plugin_eventBus_7e320a7a(app.context, inject)
   

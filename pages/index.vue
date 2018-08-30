@@ -3,8 +3,8 @@
 		<div class="container">
 			<div class="jumbotron bgSlider text-center">
 				<h3>Welcome To SWC Forum</h3>
-				<p>Where we Build great People</p>
-				<small>Spnsored By Apex traingle</small>
+				<p>Where we build great people</p>
+				<small>Sponsored By Apex traingle</small>
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center how-it-works">

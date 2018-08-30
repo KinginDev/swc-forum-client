@@ -3,13 +3,13 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _d8384ba4 = () => import('../pages/user/index.vue' /* webpackChunkName: "pages/user/index" */).then(m => m.default || m)
-const _0a3557ad = () => import('../pages/thread/index.vue' /* webpackChunkName: "pages/thread/index" */).then(m => m.default || m)
-const _1208180e = () => import('../pages/auth/signin.vue' /* webpackChunkName: "pages/auth/signin" */).then(m => m.default || m)
-const _0b924a6f = () => import('../pages/auth/signup.vue' /* webpackChunkName: "pages/auth/signup" */).then(m => m.default || m)
-const _19f0e47e = () => import('../pages/thread/new/index.vue' /* webpackChunkName: "pages/thread/new/index" */).then(m => m.default || m)
-const _3210d418 = () => import('../pages/thread/_id/index.vue' /* webpackChunkName: "pages/thread/_id/index" */).then(m => m.default || m)
-const _c0acd73c = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
+const _3e05a95a = () => import('..\\pages\\user\\index.vue' /* webpackChunkName: "pages_user_index" */).then(m => m.default || m)
+const _c47af298 = () => import('..\\pages\\thread\\index.vue' /* webpackChunkName: "pages_thread_index" */).then(m => m.default || m)
+const _3e2ab864 = () => import('..\\pages\\auth\\signin.vue' /* webpackChunkName: "pages_auth_signin" */).then(m => m.default || m)
+const _14fe0b78 = () => import('..\\pages\\auth\\signup.vue' /* webpackChunkName: "pages_auth_signup" */).then(m => m.default || m)
+const _c5f85980 = () => import('..\\pages\\thread\\new\\index.vue' /* webpackChunkName: "pages_thread_new_index" */).then(m => m.default || m)
+const _ee3c5234 = () => import('..\\pages\\thread\\_id\\index.vue' /* webpackChunkName: "pages_thread__id_index" */).then(m => m.default || m)
+const _5f736304 = () => import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */).then(m => m.default || m)
 
 
 
@@ -71,37 +71,37 @@ export function createRouter () {
     routes: [
 		{
 			path: "/user",
-			component: _d8384ba4,
+			component: _3e05a95a,
 			name: "user"
 		},
 		{
 			path: "/thread",
-			component: _0a3557ad,
+			component: _c47af298,
 			name: "thread"
 		},
 		{
 			path: "/auth/signin",
-			component: _1208180e,
+			component: _3e2ab864,
 			name: "auth-signin"
 		},
 		{
 			path: "/auth/signup",
-			component: _0b924a6f,
+			component: _14fe0b78,
 			name: "auth-signup"
 		},
 		{
 			path: "/thread/new",
-			component: _19f0e47e,
+			component: _c5f85980,
 			name: "thread-new"
 		},
 		{
 			path: "/thread/:id",
-			component: _3210d418,
+			component: _ee3c5234,
 			name: "thread-id"
 		},
 		{
 			path: "/",
-			component: _c0acd73c,
+			component: _5f736304,
 			name: "index"
 		}
     ],

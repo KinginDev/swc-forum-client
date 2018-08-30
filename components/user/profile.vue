@@ -35,7 +35,7 @@
                                                <div class="max-thread-info">
                                                 <ul>
                                                     <li v-if="this.$apollo.queries.User.loading == false"><strong>No Of Threads:</strong><span class="pull-right">{{User.threads | count}}</span></li>
-                                                    <li><strong>No Of Comments:</strong><span class="pull-right">30</span></li>
+                                                    <li><strong>No Of Comments:</strong><span class="pull-right">{{User.commentses | count}}</span></li>
                                                 </ul>
                                                </div>
                                             </div>
@@ -58,6 +58,10 @@ const queryQ = gql `query($id: ID){
             threads{
                 id
             }
+            commentses{
+                id
+            }
+
         }
     }`
 export default {

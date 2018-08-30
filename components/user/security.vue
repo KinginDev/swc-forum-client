@@ -6,7 +6,7 @@
                                         <form>
                                             <div class="form-group">
                                                 <label for="">Password</label>
-                                                <input type="password" class="form-control">
+                                                <input type="password" class="form-control" >
                                             </div>
                                              <div class="form-group">
                                                 <label for="">New Password</label>
@@ -18,7 +18,7 @@
                                             </div>
                                              <div class="form-group">
                                                 
-                                                <input type="submit" class="btn btn-outline-danger" value="Reset">
+                                                <input type="submit" class="btn btn-outline-danger" value="Reset" >
                                             </div>
                                         </form>
                                     </div>
