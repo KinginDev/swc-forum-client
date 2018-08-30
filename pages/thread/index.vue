@@ -27,8 +27,8 @@
                                  class="btn btn-outline-danger pull-right">View Thread</a>
                             </div>
                         <div class="card-footer text-muted">
-                            <span class="max-author"><i class="fas fa-user"></i>{{thread.user.firstname +' '+ thread.user.lastname}}</span>
-                            <span class="max-date-posted"><i class="far fa-calendar"></i>{{thread.createdAt | toDateFormat}}</span>
+                            <span class="max-author"><i class="fa fa-user"></i>{{thread.user.firstname +' '+ thread.user.lastname}}</span>
+                            <span class="max-date-posted"><i class="fa fa-calendar"></i>{{thread.createdAt | toDateFormat}}</span>
                         </div>
                     </div>
                 </div>

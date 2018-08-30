@@ -4,7 +4,7 @@
            <div class="container">
                 <div class=" row ">
                      <div class="col-md-9 offset-md-1">
-                         <div v-if="this.$apollo.queries.allThreads.loading" class="text-center col-md-8 offset-md-2" style="height: 100px;">
+                         <div v-if="this.$apollo.queries.Thread.loading" class="text-center col-md-8 offset-md-2" style="height: 100px;">
                                 <center>
                                   <div class="orbit-spinner">
                                       <div class="orbit"></div>
