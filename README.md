@@ -1,6 +1,8 @@
-# froum
+# Saylet Web Design Class Forum
 
-> My super Nuxt.js project
+
+
+> This is project was built for members of SWC to ask questions and get answers
 
 ## Build Setup
 
