@@ -30,7 +30,7 @@ module.exports = {
       },
        {
         rel: 'stylesheet',
-        href: 'css/prism.css'
+        href: '/css/prism.css'
       }
 
 
